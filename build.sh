@@ -29,7 +29,7 @@
 # In conclusion, emscripten encapsulates everything that I hate about native 
 # development :/
 
-EMSCRIPTEN_LIB=$EMSDK/fastcomp/emscripten/system/lib
+EMSCRIPTEN_LIB=$EMSDK/upstream/emscripten/system/lib
 
 emcc \
 	src/wasm/mpeg1.c \
